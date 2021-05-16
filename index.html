@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="section__one">
+        <h1>Simple, traffic-based pricing</h1>
+        <div class="signup">
+          <p>Sign-up for our 30-day trial.</p>
+          <p>No credit card required.</p>
+        </div>
+      </section>
+
+      <section class="section__two">
+        <div class="section__two__one">
+          <div class="one">
+            <h2><span class="views"> 10k</span> Pageviews</h2>
+            <input
+              type="range"
+              min="0"
+              max="4"
+              step="1"
+              class="range"
+              value="0"
+            />
+            <div class="per">
+              <span class="dollar">$8.00</span><span class="m"> /month</span>
+            </div>
+          </div>
+          <div class="billing">
+            <div>Monthly Billing</div>
+            <label for="switch">
+              <input type="checkbox" id="switch" />
+              <span class="slider round"></span>
+            </label>
+            <div>Yearly Billing</div>
+            <div class="percent">-25%</div>
+            <div class="percentone">-25%discount</div>
+          </div>
+        </div>
+        <div class="lastcomponent">
+          <div class="lastcomponent__one">
+            <div class="l__one">
+              <img src="/images/icon-check.svg" alt="check icon" /> Unlimited
+              websites
+            </div>
+            <div class="l__two">
+              <img src="/images/icon-check.svg" alt="check icon" />100% data
+              ownership
+            </div>
+            <div class="l__three">
+              <img src="/images/icon-check.svg" alt="check icon" />Email reports
+            </div>
+          </div>
+          <a href="#">Start my trial</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
